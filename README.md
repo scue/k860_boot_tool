@@ -12,6 +12,7 @@
 
         ./k860_boot_test.sh unpack
 
+
 *   **打包操作：**
 
     +   在工作目录中需要存在 root/ 目录
@@ -20,3 +21,13 @@
     使用举例：
 
         ./k860_boot_test.sh repack
+
+# 效果展示
+
+*   **解压操作：**
+
+![unpack](https://raw.githubusercontent.com/scue/k860_boot_tool/shots/shots/unpack.png)
+
+*   **打包操作：**
+
+![repack](https://raw.githubusercontent.com/scue/k860_boot_tool/shots/shots/repack.png)
