@@ -56,11 +56,6 @@ minigzip_tool=$self_dir/minigzip
 mkbootimg_tool=$self_dir/mkbootimg
 bootimg_tool=$self_dir/bootimg.py
 
-if [[ "$1" == "" ]]; then
-    echo "usage: $(basename $0) repack|unpack"
-    exit 0
-fi
-
 if [[ "$1" == "unpack" ]]; then
     if [[ ! -f $unpack_bootimage ]]; then
         echo "can't find a boot.img named $unpack_bootimage"
