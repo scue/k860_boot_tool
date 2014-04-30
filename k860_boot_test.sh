@@ -24,7 +24,7 @@ usage(){
     echo
     echo -en "\e[0;31m" # color: red
     echo "==> 使用: $(basename $0) repack|unpack."
-    echo "==> 备注: 此解包、打包boot的方法已在VIBE版本中失效"
+    echo "==> 备注: 打包后会自动刷入手机，如不希望刷入，不连接联想手机即可"
     echo -en "\e[0m"
     echo
     exit
