@@ -20,7 +20,7 @@
 # fun: usage
 usage(){
     echo
-    echo "==> 联想K860/i boot 解压、打包工具"
+    echo "==> 联想K860/i boot recovery 解压、打包工具"
     echo
     echo -en "\e[0;31m" # color: red
     echo "==> 使用: $(basename $0) repack|unpack."

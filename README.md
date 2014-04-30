@@ -24,6 +24,10 @@
 
 # 效果展示
 
+*   **帮助信息：**
+
+![unpack](https://raw.githubusercontent.com/scue/k860_boot_tool/shots/shots/help.png)
+
 *   **解压操作：**
 
 ![unpack](https://raw.githubusercontent.com/scue/k860_boot_tool/shots/shots/unpack.png)
